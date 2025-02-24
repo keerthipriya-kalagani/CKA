@@ -1,0 +1,18 @@
+KUBERNETES ARCHITECTURE- THE BEGINNER'S GUIDE- CHAPTER 01
+
+What is kubernetes? why it is important?
+
+Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.
+It is known for Declarative Configuration, Multi cloud support,Load balancing, Demand based Auto-scaling and self healing.
+2.Core components of kubernetes Architecture?
+Kubernetes is built on a set of core components that work together to provide a scalable and resilient container orchestration system. Each component plays a crucial role in managing the lifecycle of applications.
+Here are those core changing components.
+MASTER NODE :The master node is responsible for managing the overall state of the cluster. 
+1.Api- server 
+2.Controller Manger
+3.Scheduler
+4.ETCD
+WORKER NODE:Worker nodes execute application workloads and provide compute capacity.
+1.Kubelet
+2.Kube-proxy
+3.Container RunTime Engine
